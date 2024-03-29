@@ -1,0 +1,15 @@
+.homepage-header {
+    background: url(../images/index-header-small-cropped.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 358px;
+    position: relative;
+    color: var(--secondary-key-color-10);
+    text-align: center;
+} 
+
+.homepage-header-content {
+    position: absolute;
+    top: 64px;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.exhibitions-main {
+    margin-top: 150px;
+} 
+
+.news {
+    background-color: var(--secondary-key-color-95);
+    border-radius: 20px;
+} 
+
+.news h3,
+.news p {
+    padding: 0px 16px 16px 16px;
+}
+
+.news img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.exhibition-spaces {
+    background-color: var(--primary-key-color-99);
+    margin: -24px;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.spaces {
+    padding: 24px;
+}

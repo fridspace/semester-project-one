@@ -4,22 +4,30 @@
         <meta charset="UTF-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <meta name="description" content="Are you intrested in contributing to the museum">
-        <title>Community Sience Museum | Contribution</title>
+        <title>Community Science Museum | Contribution</title>
         <link href="css/style.css" rel="stylesheet" >
-        <link href="css/contact-page.css" rel="stylesheet" >
+        <link href="css/contribution-page.css" rel="stylesheet" >
         <link href="css/media.css" rel="stylesheet" >
         <link rel="icon" type="image/png" href="images/favicon-logo-96-96.png" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cd8f634d7b.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="header">
-            <img src="images/logo-colors-small.png" alt="logo for Community Science Museum" > 
+            <img src="images/logo-colors-small.png" class="logo logo-header" alt="logo for Community Science Museum" > 
+            <label for="hamburger-menu"><i class="fa-regular fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu" />
             <nav>
-                <a href="index.html">Home</a>
-                <a href="contact-page.html">Visit</a>
-                <a href="exhibitions-page.html">Exhibitions</a>
-                <a href="contribution-page.html">Contributions</a>
-                <a href="privacy-policy-page.html">Privacy Policy</a>
-                <a href="terms-and-conditions-page.html">Terms and Conditions</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact-page.html">Visit</a></li>
+                    <li><a href="exhibitions-page.html">Exhibitions</a></li>
+                    <li><a href="contribution-page.html">Contributions</a></li>
+                    <li><a href="privacy-policy-page.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions-page.html">Terms and Conditions</a></li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -29,7 +37,6 @@
                     <h2>Support</h2>
                     <p>
                         There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.
-
                         You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.
                     </p>
                 </div>
@@ -52,8 +59,10 @@
             </section>
         </main>
         <footer>
-            <img src="images/logo-white-small.png" alt="logo for Community Science Museum" > 
-            <p>&copy; 2024 Community Science Museum, Inc. All Rights Reserved.</p>
+            <div class="footer">
+                <img src="images/logo-white-small.png" class="logo" alt="logo for Community Science Museum" > 
+                <p>&copy; 2024 Community Science Museum, Inc. All Rights Reserved.</p>
+            </div>
         </footer>
     </body>
 </html>

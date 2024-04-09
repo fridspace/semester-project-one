@@ -27,3 +27,16 @@
 .spaces {
     padding: 24px;
 }
+
+.spaces h2,
+.news h3 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.exhibitions-main h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+

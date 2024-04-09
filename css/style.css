@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
     font-family: "Libre Franklin" , sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 p,
@@ -29,18 +29,34 @@ li a {
     font-weight: 700;
 }
 
+.homepage-header-content h1,
+.explore h1,
+.exhibition-spaces h1,
+.exhibitions-main h1 {
+    font-size: 2.13rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+
 .homepage-text,
 .explore-content,
 .contact-main,
 .privacy-plicy-main,
 .terms-andconditions-main,
-.exhibitions-main {
+.exhibitions-main,
+.contribution-page-main {
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .homepage-text,
-.explore-content {
+.explore-content,
+.contribution-page-main {
     max-width: 550px;
     margin: 0px auto;
 }
@@ -60,16 +76,6 @@ li a {
     text-align: center;
 }
 
-.explore {
-    background-color: var(--primary-key-color-99);
-    color: var(--primary-key-color-10);
-    padding-top: 16px;
-    padding-bottom: 56px;
-}
-
-.explore-content img {
-    border-radius: 20px;
-}
 
 .header {
     display: flex;
@@ -162,14 +168,20 @@ nav li {
 } 
 
 .footer {
-    background-color: var(--primary-key-color-10);
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    padding: 64px 0px;
     width: 100%;
-    margin-bottom: 0px;
-    border-radius: 100% 100% 0% 0%;
-    transform-origin: bottom;
-    transform: translateX(-0%) scale(1);
+    height: 244px;
+    background: url(../images/footer-small.png) ;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: var(--primary-key-color-99);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    text-align: center;
+    color:#fff;
+}
+
+.footer div {
+    padding: 0px 24px;
 }

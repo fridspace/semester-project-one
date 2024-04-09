@@ -17,3 +17,32 @@
 .homepage-header-content .cta {
     margin-top: 56px;
 }
+
+.explore {
+    background-color: var(--primary-key-color-99);
+    color: var(--primary-key-color-10);
+    padding-top: 0.5rem;
+    padding-bottom: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.explore h1 {
+    grid-column: -1/1;
+}
+
+.explore-content h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+}  
+
+.explore-content img {
+    border-radius: 20px;
+} 
+
+
+.explore-content p {
+    margin-top: 0rem;
+}
+

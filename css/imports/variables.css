@@ -7,4 +7,16 @@
     --teritary-key-color-10: #8C0065;
     --heading-font: "Libre Franklin";
     --pharagraph-font: "Noto Sans";
+    --headline-one: 6rem;
+    --headline-two: 3.75rem;
+    --headline-three: 3rem;
+    --headline-four: 2.13rem;
+    --headline-five: 1.5rem;
+    --headline-six: 1.24rem;
+    --subtitle-one: 1rem;
+    --subtitle-two: 0.9rem;
+    --body-one: 1rem;
+    --body-two: 0.9rem;
+    --button-font-desktop: 1.5rem;
+    --button-font-mobile: 0.9rem;
 }

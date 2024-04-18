@@ -1,3 +1,5 @@
 .terms-and-conditions-main {
     margin-top: 152px;
+    display: grid;
+    grid-template-columns: 1fr;
 } 

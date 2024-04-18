@@ -36,7 +36,7 @@
             </div>
         </header>
         <main class="contact-main">
-            <div>
+            <div class="contact-info">
                 <div>
                     <h2>Location</h2>
                     <p>The museum is located at Klubbgata 23, 3256 Stavanger</p>
@@ -79,10 +79,12 @@
                         Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.
                     </p>
                 </div>
-                <div>
-                    <h2>Contact Us</h2>
-                    <form method="post">
-                        <div class="form-wrapper">
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form method="post">
+                    <div class="form-wrapper">
+                        <div>
                             <label for="name">Full Name*</label>
                             <input type="text" id="name" name="name">
                             <label for="phone-number">Phone number*</label>
@@ -93,14 +95,16 @@
                             <input type="text" id="subject" name="subject">
                             <label for="message">What are you thinking about?</label>
                             <textarea id="message" name="message" rows="5" cols="24"></textarea>
+                        </div>
+                        <div>
                             <input type="submit" value="Submit" class="cta">
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </main>
         <footer>
-            <div class="footer">
+            <div class="footer" id="white-background">
                 <img src="images/logo-white-small.png" class="logo" alt="logo for Community Science Museum" > 
                 <p>&copy; 2024 Community Science Museum, Inc. All Rights Reserved.</p>
             </div>

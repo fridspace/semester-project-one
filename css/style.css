@@ -31,14 +31,19 @@ li a {
 
 .homepage-header-content h1,
 .explore h1,
-.exhibition-spaces h1,
 .exhibitions-main h1 {
-    font-size: 2.13rem;
+    font-size: var(--headline-four);
     line-height: 2.5rem;
 }
 
-p {
-    font-size: 0.9rem;
+.contact-header h1 {
+    font-size: var(--headline-three);
+}
+
+p,
+.privacy-plicy-main ul,
+.terms-and-conditions-main ul {
+    font-size: var(--body-two);
     line-height: 1.5rem;
 }
 
@@ -47,7 +52,7 @@ p {
 .explore-content,
 .contact-main,
 .privacy-plicy-main,
-.terms-andconditions-main,
+.terms-and-conditions-main,
 .exhibitions-main,
 .contribution-page-main {
     padding-left: 24px;
@@ -63,16 +68,17 @@ p {
 
 .contact-main,
 .privacy-plicy-main,
-.terms-andconditions-main,
-.exhibitions-main {
+.terms-and-conditions-main,
+.news-section {
     max-width: 616px;
     margin: 0px auto;
 }
 
 .explore h1,
 .privacy-plicy-main h1,
-.terms-andconditions-main h1,
-.exhibitions-main h1 {
+.terms-and-conditions-main h1,
+.exhibitions-main h1,
+.contact-form h2 {
     text-align: center;
 }
 
@@ -174,14 +180,19 @@ nav li {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: var(--primary-key-color-99);
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-direction:column;
     text-align: center;
     color:#fff;
 }
 
-.footer div {
-    padding: 0px 24px;
+.footer img {
+    padding: 16px 24px;
+    margin-top: 50px;
 }
+
+.footer p {
+    margin-bottom: 40px;
+}
+
+#white-background {
+    background-color: #fff;
+}  

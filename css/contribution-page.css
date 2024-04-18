@@ -1,11 +1,27 @@
 .contribution-page-main {
-    margin-top: 152px;
-    
+    margin-top: 152px;  
+}
 
+.get-involved {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: grid; 
+    grid-template-columns: 1fr;
+    column-gap: 16px;
 }
 
 .get-involved h1 {
-    font-size: 3rem;
+    grid-column: -1/1;
+    font-size: var(--headline-three);
     line-height: 3.5rem;
     text-align: center;
+}
+
+.get-involved h2 {
+    margin-bottom: 0px;
+    font-size: var(--headline-six);
+}
+
+.get-involved p {
+    margin-top: 0px;
 }

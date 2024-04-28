@@ -26,12 +26,14 @@ label {
 }
 
 li a {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .homepage-header-content h1,
 .explore h1,
-.exhibitions-main h1 {
+.exhibitions-main h1,
+.terms-and-conditions-main h1,
+.privacy-policy-main h1 {
     font-size: var(--headline-four);
     line-height: 2.5rem;
 }
@@ -40,8 +42,13 @@ li a {
     font-size: var(--headline-three);
 }
 
+.terms-and-conditions-main h2,
+.privacy-policy-main h2 {
+    font-size: var(--headline-six);
+}
+
 p,
-.privacy-plicy-main ul,
+.privacy-policy-main ul,
 .terms-and-conditions-main ul {
     font-size: var(--body-two);
     line-height: 1.5rem;
@@ -51,7 +58,7 @@ p,
 .homepage-text,
 .explore-content,
 .contact-main,
-.privacy-plicy-main,
+.privacy-policy-main,
 .terms-and-conditions-main,
 .exhibitions-main,
 .contribution-page-main {
@@ -67,7 +74,7 @@ p,
 }
 
 .contact-main,
-.privacy-plicy-main,
+.privacy-policy-main,
 .terms-and-conditions-main,
 .news-section {
     max-width: 616px;
@@ -75,7 +82,7 @@ p,
 }
 
 .explore h1,
-.privacy-plicy-main h1,
+.privacy-policy-main h1,
 .terms-and-conditions-main h1,
 .exhibitions-main h1,
 .contact-form h2 {
@@ -133,11 +140,11 @@ nav {
     margin-left: 84px;
     top: 104px;
     left: 0px;
-    padding-top: 8px;
+    padding-top: 0px;
     right: 0px;
     background-color: var(--primary-key-color-99);
-    width: 280px;
-    height: 408px;
+    width: 200px;
+    height: 430px;
     border-radius: 0px 0px 50px 50px;
 }
 
@@ -164,19 +171,28 @@ nav li {
     background-color: var(--teritary-key-color-10);
     color: #fff;
     text-decoration: none;
-    font-size: 1em;
+    font-size: var(--button-font-mobile);
     text-transform: uppercase;
-    padding: 13px 24px;  
+    padding: 0.8rem 1.5rem;  
     border-radius: 50px;
     display: inline-block;
     overflow: hidden;
     border: 0px;
 } 
 
+#cursor-hand {
+    cursor:pointer;
+} 
+
+.current {
+    text-decoration: underline;
+} 
+
+
 .footer {
-    width: 100%;
+    width: auto;
     height: 244px;
-    background: url(../images/footer-small.png) ;
+    background: url(../images/footer-small.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: var(--primary-key-color-99);

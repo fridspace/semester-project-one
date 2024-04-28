@@ -1,4 +1,16 @@
-.privacy-plicy-main {
+.privacy-policy-main {
     margin-top: 152px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1.5rem;
+}  
+
+.privacy-policy-main h2 {
+    margin-bottom: 0rem;
 } 
+
+.privacy-policy-main p,
+.privacy-policy-main ul {
+    margin-top: 0rem;
+}   
   

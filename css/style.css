@@ -21,7 +21,8 @@ h6 {
 p,
 a,
 li,
-label {
+label,
+input {
     font-family: "Noto Sans" , Arial, Helvetica, sans-serif
 }
 
@@ -60,25 +61,26 @@ p,
 .contact-main,
 .privacy-policy-main,
 .terms-and-conditions-main,
-.exhibitions-main,
+.news-section,
 .contribution-page-main {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
-.homepage-text,
+
 .explore-content,
-.contribution-page-main {
-    max-width: 550px;
-    margin: 0px auto;
+.contribution-page-main,
+.news-section,
+.contact-main {
+    max-width: 1000px;
+    margin: 1.5rem auto;
 }
 
-.contact-main,
 .privacy-policy-main,
 .terms-and-conditions-main,
-.news-section {
-    max-width: 616px;
-    margin: 0px auto;
+.homepage-text {
+    max-width: 800px;
+    margin: 1.5rem auto;
 }
 
 .explore h1,
@@ -192,12 +194,12 @@ nav li {
 .footer {
     width: auto;
     height: 244px;
-    background: url(../images/footer-small.png);
+    background: url(../images/footer-small-yellow.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: var(--primary-key-color-99);
     text-align: center;
-    color:#fff;
+    color: var(--primary-key-color-10);
 }
 
 .footer img {
@@ -207,6 +209,8 @@ nav li {
 
 .footer p {
     margin-bottom: 40px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 #white-background {

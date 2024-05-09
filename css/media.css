@@ -25,7 +25,7 @@
 
 @media (min-width:600px) {
     .footer {
-        background: url(../images/footer-medium.png) ;
+        background: url(../images/footer-medium-yellow.png) ;
         background-position: center bottom;
         background-repeat: no-repeat;
         background-color: var(--primary-key-color-99);
@@ -68,17 +68,17 @@
 
     /*exhibitions page*/
 
-    .exhibitions-main {
-        padding-left: 50px;
-        padding-right: 50px;
+    .news-section {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .exhibition-spaces {
-        margin: 24px -50px 0px -50px;
+        margin: 1.5rem 0rem 0rem 0rem;
     }
 
     .spaces-images-box {
-        height: 350px;
+        height: 320px;
     }
 
 }
@@ -94,6 +94,20 @@
     .header {
         padding: 32px 0px 70px 0px;
     }
+
+    .logo-header {
+        margin-left: 2.5rem;
+    }
+
+    .privacy-policy-main,
+    .terms-and-conditions-main,
+    .contribution-page-main,
+    .exhibitions-main {
+        margin-top: 240px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
 
     /*index*/
 
@@ -116,7 +130,7 @@
         padding: 0px;
     }
 
-    /*contact page*/
+    /*contact-page*/
 
     .contact-header {
         min-height: 525px;
@@ -128,10 +142,6 @@
     }
 
     .contact-main {
-        max-width: 900px;
-    }
-
-    .contact-main {
         flex-direction: row;
         column-gap: 16px;
     }
@@ -140,11 +150,7 @@
         flex: 1;
     }
 
-    /*exhibitions page*/
-
-    .exhibitions-main { 
-        margin-top: 250px;
-    }
+    /*exhibitions-page*/
 
     .exhibition-spaces {
         grid-template-columns: 1fr 1fr;
@@ -159,19 +165,7 @@
         height: 224px;
     }
 
-    /*privacy policy*/
-
-    .privacy-policy-main {
-        margin-top: 250px;
-    }
-
-    .terms-and-conditions-main {
-        margin-top: 250px;
-    }
-
-    .contribution-page-main {
-        margin-top: 250px;
-    }
+    /*privacy-policy*/
 }
 
 @media (min-width:1000px) {
@@ -220,28 +214,29 @@
         margin-top: 180px;
     }
 
-    .cta {
+    .homepage-header-content .cta {
         font-size: var(--button-font-desktop); 
         padding: 1rem 2rem;
     }
 
     .homepage-text {
-        max-width: 800px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     /*contact*/
 
     .contact-main {
-        margin-top: 2rem;
+        margin-top: 6rem;
         margin-bottom: 2.5rem;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .contact-header h1 {
-        margin-left: 150px;
+        margin-left: 200px;
         font-size: var(--headline-one);
     }
 
@@ -249,17 +244,14 @@
 
     .news-section {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 16px;
+        gap: 1rem;
     } 
-
-    .news-section {
-        max-width: 950px;
-    }
 
     .exhibition-spaces {
         grid-template-columns: 1fr 1fr 1fr;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-bottom: 2.5rem;
     }
 
     .exhibitions-main h1 {
@@ -275,17 +267,20 @@
     }
     
     .contribution-page-main {
-        max-width: 900px;
+        max-width: 950px;
     }
 
     /*privacy-policy*/
 
-    .privacy-policy-main {
+    .privacy-policy-main,
+    .terms-and-conditions-main,
+    .exhibitions-main {
         margin-top: 280px;
     }
 
     .privacy-policy-main h1,
-    .terms-and-conditions-main h1 {
+    .terms-and-conditions-main h1,
+    .exhibitions-main h1 {
         font-size: var(--headline-two);
         line-height: 4.5rem;
     }
@@ -314,12 +309,23 @@
     .spaces-images-box {
         height: 200px;
     }
+
+    /*contact-page*/
+
+    .contact-header h1 {
+        margin-left: 280px;
+    }
 }
 
 @media (min-width:1200px) {
 
+
+    .logo-header {
+        margin-left: 5rem;
+    }
+
     .footer {
-        background: url(../images/footer-large.png) ;
+        background: url(../images/footer-large-yellow.png) ;
         background-position: center bottom;
         background-repeat: no-repeat;
         background-color: var(--primary-key-color-99);
@@ -334,6 +340,17 @@
     }
 
     /*contact*/
+
+    .contact-header {
+        background: url(../images/contact-header-large-sfw.jpg) center bottom no-repeat;
+        background-size: cover;
+        min-height: 600px;
+    } 
+
+    .contact-header h1 {
+        margin-left: 300px;
+    }
+
     .contact-main {
         padding-left: 80px;
         padding-right: 80px;
@@ -349,7 +366,21 @@
 
     /*exhibitions page*/
 
+    .exhibition-spaces {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
     .spaces-images-box {
-        height: 224px;
+        height: 240px;
+    }
+}
+
+@media (min-width:2000px) {
+    .footer {
+        background: url(../images/footer-xlarge-yellow.png) ;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: var(--primary-key-color-99);
     }
 }

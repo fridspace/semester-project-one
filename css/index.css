@@ -1,47 +1,25 @@
 .homepage-header {
     background: url(../images/index-header-small-cropped.jpg) center center no-repeat;
     background-size: cover;
-    min-height: 358px;
+    min-height: 22.4rem;
     color: var(--secondary-key-color-10);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 72px;
-} 
-
-.homepage-header-content {
-    margin-top: 72px;
-    text-align: center;
 }
 
 .homepage-header-content .cta {
-    margin-top: 56px;
+    margin-top: 3.5rem;
 }
 
 .explore {
     background-color: var(--primary-key-color-99);
     color: var(--primary-key-color-10);
     padding-top: 0.5rem;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.explore h1 {
-    grid-column: -1/1;
-    margin-bottom: 0rem;
+    padding-bottom: 1.5rem;
 }
 
 .explore-content h2 {
-    font-size: 1.5rem;
-    line-height: 2rem;
     margin-bottom: 0.5rem;
 }  
 
-.explore-content img {
-    border-radius: 20px;
-} 
-
-
-.explore-content p {
-    margin-top: 0rem;
-}
+.explore-content {
+    margin-bottom: 1.5rem;
+}  

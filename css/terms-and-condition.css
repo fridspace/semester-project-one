@@ -1,15 +1,3 @@
-.terms-and-conditions-main {
-    margin-top: 152px;
-    display: grid;
-    grid-template-columns: 1fr;
+.terms-and-conditions-main div {
     margin-bottom: 1.5rem;
-} 
-
-.terms-and-conditions-main h2 {
-    margin-bottom: 0rem;
-} 
-
-.terms-and-conditions-main p,
-.terms-and-conditions-main ul {
-    margin-top: 0rem;
-}   
+}

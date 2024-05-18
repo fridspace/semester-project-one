@@ -12,14 +12,9 @@
 .explore {
     background-color: var(--primary-key-color-99);
     color: var(--primary-key-color-10);
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
+    padding: 0.5rem 0rem 1.5rem 0rem;
 }
 
 .explore-content h2 {
     margin-bottom: 0.5rem;
-}  
-
-.explore-content {
-    margin-bottom: 1.5rem;
 }  

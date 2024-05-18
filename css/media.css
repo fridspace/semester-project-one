@@ -57,8 +57,6 @@
         font-size: var(--headline-two);
     }
 
-    /*contact page*/
-
     .contact-header {
         background: url(../images/contact-header-medium-sfw.jpg) center bottom no-repeat;
         background-size: cover;
@@ -66,11 +64,8 @@
     } 
 
     .contact-header h1 {
-        margin-top: 20rem;
-        margin-left: 6.3rem;
+        margin: 19rem 0rem 0rem 6.3rem;
     }
-
-    /*exhibitions page*/
 
     .spaces-images-box {
         height: 20rem;
@@ -103,11 +98,8 @@
     .contribution-page-main,
     .exhibitions-main {
         margin-top: 15rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding: 0rem 2.5rem;
     }
-
-    /*index*/
 
     .homepage-header {
         margin-top: 6.5rem;
@@ -120,22 +112,20 @@
     .explore-container {
         grid-template-columns: 1fr 1fr;
         column-gap: 1rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding: 0rem 2.5rem;
+        max-width: 70rem;
     }
 
     .explore-content {
         padding: 0px;
     }
 
-    /*contact-page*/
-
     .contact-header {
         min-height: 32.8rem;
     }
 
     .contact-header h1 {
-        margin-top: 28.1rem;
+        margin-top: 26.1rem;
         font-size: var(--headline-two);
     }
 
@@ -147,8 +137,6 @@
     .contact-main div {
         flex: 1;
     }
-
-    /*exhibitions-page*/
 
     .news-section {
         padding-left: 0rem;
@@ -217,12 +205,6 @@
         display: none;
     }
 
-    .privacy-policy-main,
-    .terms-and-conditions-main,
-    .exhibitions-main {
-        margin-top: 17.5rem;
-    }
-
     .privacy-policy-main h1,
     .terms-and-conditions-main h1,
     .exhibitions-main h1 {
@@ -236,7 +218,11 @@
         grid-template-columns: 1fr 1fr 1fr;
     } 
 
-    /*index*/
+    .news-section,
+    .contribution-page-main {
+        column-gap: 1.5rem;
+        max-width: 70rem;
+    } 
 
     .homepage-header {
         background: url(../images/index-header-large-sfw.jpg) center center no-repeat;
@@ -253,32 +239,22 @@
         padding: 1rem 2rem;
     }
 
-    .homepage-text {
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+    .homepage-text,
+    .contact-main {
+        padding: 0rem 2.5rem;
     }
 
-    /*contact*/
+    .homepage-text {
+        margin: 2.5rem auto;
+    }
 
     .contact-main {
-        margin-top: 6rem;
-        margin-bottom: 2.5rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        margin: 6rem auto 2.5rem auto;
     }
 
     .contact-header h1 {
         margin-left: 12.5rem;
     }
-
-    /*exhibitions page*/
-
-    .news-section {
-        column-gap: 1.5rem;
-        max-width: 70rem;
-    } 
 
     .exhibition-spaces {
         margin-top: 2.5rem;
@@ -287,12 +263,6 @@
 
     .spaces-images-box {
         height: 9.5rem;
-    }
-
-    /*contribution-page*/
-
-    .contribution-page-main {
-        max-width: 59.4rem;
     }
 }
 
@@ -311,19 +281,19 @@
         margin-top: 4.4rem;
     }
 
-    /*index-page*/
+    .privacy-policy-main,
+    .terms-and-conditions-main,
+    .exhibitions-main {
+        margin-top: 17.5rem;
+    }
 
     .homepage-header-content {
         margin-top: 12.5rem;
     }
 
-    /*contact-page*/
-
     .contact-header h1 {
         margin-left: 17.5rem;
     }
-
-    /*exhibitions-page*/
 
     .spaces-images-box {
         height: 11rem;
@@ -333,8 +303,11 @@
 @media (min-width:1200px) {
     .contact-main,
     .spaces-container,
-    .explore,
     .news-section {
+        padding: 0rem 5rem;
+    }
+
+    .explore {
         padding-left: 5rem;
         padding-right: 5rem;
     }
@@ -350,13 +323,9 @@
         background-color: var(--primary-key-color-99);
     }
 
-    /*index*/
-
     .explore-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-    /*contact*/
 
     .contact-header {
         background: url(../images/contact-header-large-sfw.jpg) center bottom no-repeat;
@@ -375,8 +344,6 @@
     .contact-main .contact-form {
         flex: 7;
     }
-
-    /*exhibitions-page*/
 
     .spaces-images-box {
         height: 11rem;

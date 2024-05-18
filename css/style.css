@@ -2,10 +2,8 @@
 
 body {
     margin: 0px;
-}
-
-main {
-    margin: 0px auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1,
@@ -69,55 +67,9 @@ p,
     line-height: 1.5rem;
 }
 
+/*move down*/ 
 
-.homepage-text,
-.explore-content,
-.contact-main,
-.privacy-policy-main,
-.terms-and-conditions-main,
-.contribution-page-main,
-.news-section {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-
-.contribution-page-main,
-.contact-main {
-    max-width: 62.5rem;
-    margin: 1.5rem auto;
-}
-
-.explore-container {
-    max-width: 70rem;
-    margin: 1.5rem auto 0rem auto;
-}
-
-.privacy-policy-main,
-.terms-and-conditions-main,
-.homepage-text {
-    max-width: 50rem;
-    margin: 1.5rem auto;
-}
-
-.news-section,
-.spaces-container {
-    max-width: 40rem;
-    margin: 1.5rem auto;
-}
-
-.explore h1,
-.privacy-policy-main h1,
-.terms-and-conditions-main h1,
-.exhibitions-main h1,
-.contact-form h2,
-.get-involved h1,
-.homepage-header-content,
-.homepage-header,
-.contact-form .cta,
-.footer {
-    text-align: center;
-}
-
+/*all off this*/
 
 .header {
     display: flex;
@@ -215,6 +167,58 @@ nav li {
     text-decoration: underline;
 }
 
+.homepage-text,
+.explore-content,
+.contact-main,
+.privacy-policy-main,
+.terms-and-conditions-main,
+.contribution-page-main,
+.news-section {
+    padding: 0rem 1.5rem;
+}
+
+.contact-main {
+    max-width: 62.5rem;
+    margin: 1.5rem auto;
+}
+
+.privacy-policy-main,
+.contribution-page-main,
+.terms-and-conditions-main,
+.explore-container,
+.homepage-text {
+    max-width: 36rem;
+    margin: 1.5rem auto;
+}
+
+.news-section,
+.spaces-container {
+    max-width: 40rem;
+    margin: 1.5rem auto;
+}
+
+.explore h1,
+.privacy-policy-main h1,
+.terms-and-conditions-main h1,
+.exhibitions-main h1,
+.contact-form h2,
+.get-involved h1,
+.homepage-header-content,
+.homepage-header,
+.contact-form .cta,
+.footer {
+    text-align: center;
+}
+
+.privacy-policy-main div,
+.terms-and-conditions-main div,
+.explore-content,
+.terms-and-conditions-main,
+.privacy-policy-main,
+.contact-main p {
+    margin-bottom: 1.5rem;
+}
+
 .contribution-page-main,
 .contact-header h1,
 .exhibitions-main,
@@ -249,14 +253,19 @@ nav li {
 .homepage-header,
 .homepage-header-content {
     margin-top: 4.5rem;
-} 
+}
+
+.news p,
+.spaces p,
+.get-involved p  {
+    margin-top: 0.2rem;
+}
 
 .terms-and-conditions-main,
 .privacy-policy-main {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 1.5rem;
-} 
+}
 
 .contact-header,
 .form-wrapper,
@@ -304,9 +313,7 @@ form,
 }
 
 .footer p {
-    margin-bottom: 2.5rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin: 0rem 1.5rem 2.5rem 1.5rem;
 }
 
 #white-background {

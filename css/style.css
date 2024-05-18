@@ -82,15 +82,12 @@ p,
 }
 
 .contribution-page-main,
-.news-section,
 .contact-main {
     max-width: 62.5rem;
     margin: 1.5rem auto;
 }
 
-.explore-container,
-.spaces-container,
-.news-section {
+.explore-container {
     max-width: 70rem;
     margin: 1.5rem auto 0rem auto;
 }
@@ -99,6 +96,12 @@ p,
 .terms-and-conditions-main,
 .homepage-text {
     max-width: 50rem;
+    margin: 1.5rem auto;
+}
+
+.news-section,
+.spaces-container {
+    max-width: 40rem;
     margin: 1.5rem auto;
 }
 

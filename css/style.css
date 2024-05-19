@@ -26,6 +26,7 @@ input {
 
 li a {
     font-weight: 600;
+    font-size: var(--subtitle-one);
 }
 
 .homepage-header-content h1,
@@ -61,15 +62,12 @@ li a {
 }
 
 p,
-.privacy-policy-main ul,
-.terms-and-conditions-main ul {
+.privacy-policy-main ul li,
+.terms-and-conditions-main ul li,
+.contact-info ul li {
     font-size: var(--body-two);
     line-height: 1.5rem;
 }
-
-/*move down*/ 
-
-/*all off this*/
 
 .header {
     display: flex;
@@ -178,7 +176,7 @@ nav li {
 }
 
 .contact-main {
-    max-width: 62.5rem;
+    max-width: 80rem;
     margin: 1.5rem auto;
 }
 
@@ -194,7 +192,7 @@ nav li {
 .news-section,
 .spaces-container {
     max-width: 40rem;
-    margin: 1.5rem auto;
+    margin: 0rem auto 1.5rem auto;
 }
 
 .explore h1,
